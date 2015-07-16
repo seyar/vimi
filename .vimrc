@@ -37,7 +37,7 @@ set nocompatible
         " Perform all your vim insert mode completions with Tab
         Bundle 'git://github.com/ervandew/supertab.git'
         " Command-T
-        " Bundle 'git://github.com/wincent/Command-T.git'
+        " Bundle 'git://github.com/wincent/Command-T.git'd
         " Bundle 'git://github.com/vim-scripts/taglist.vim.git'
         " Depends: http://ctags.sourceforge.net/
         " Bundle 'git://github.com/int3/vim-taglist-plus.git'
@@ -679,7 +679,7 @@ set nocompatible
         syntax enable
         " http://stackoverflow.com/questions/7278267/incorrect-colors-with-vim-in-iterm2-using-solarized#comment11144700_7278548
         let g:solarized_termcolors=16
-        set background=dark
+        set background=light
         try
             colorscheme solarized
         catch /^Vim\%((\a\+)\)\=:E185/
